@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'YourChosenFontFamily', sans-serif;
+  }
+  
+  header {
+    background-color: #f10909;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+  }
+  
+  #searchInput {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  #resultsContainer {
+    margin-top: 20px;
+  }
+  
+  .result {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .highlight {
+    background-color: yellow;
+  }
+  
+  .positive-growth {
+    color: green;
+  }
+  
+  .negative-growth {
+    color: red;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #f2f2f2;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #333;
+    width: 60%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .close {
+    color: #333;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: #fff;
+  }
+  
+  #modalContent {
+    margin-top: 20px;
+  }
+  
